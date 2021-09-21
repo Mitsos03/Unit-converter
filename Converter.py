@@ -598,7 +598,7 @@ def foot_mile():
 def kmh_mph():
     kmh = (float(input(Fore.GREEN+"Give kmh value: ")))
     mph = kmh/1.60934
-    print(mph, "Mp/h")
+    print(mph, "Mph")
 
 
 def mph_kmh():
@@ -616,7 +616,7 @@ def kmh_ma():
 def ma_kmh():
     macht = (float(input(Fore.GREEN+"Give macht value: ")))
     kmh = macht*1225.08
-    print(kmh, "Kmh")
+    print(kmh, "Kmph")
 
 
 def mph_ma():
@@ -676,7 +676,7 @@ def kmh_c():
 def c_kmh():
     c = (float(input(Fore.GREEN+"Give speed of light value: ")))
     kmh = c*1079252848.8 
-    print(kmh, "Kmh")
+    print(kmh, "Kmph")
 
 
 def mph_c():
