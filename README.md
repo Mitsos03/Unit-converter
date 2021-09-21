@@ -10,7 +10,7 @@
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|                                                                                                               
 | Temperature       | Celsius,Fahrenheit,Kelvin 
   Data              |  Byte,Kilobyte(Kb),Megabyte(Mb),Gigabyte(Gb),Terabyte(Tb)      
-  Distance          |  Milimeter(Mm),Centimeter(cm),Meter(M),Kilometer(Kmph),Mile(mph),Inch,Foot
+  Distance          |  Milimeter(Mm),Centimeter(cm),Meter(M),Kilometer(Km),Mile,Inch,Foot
   Time              |  Second(sec),Minute,Hour,Day,Week,Year
   Velocity          |  Kilometer(Kmph),Mile(Mph),Macht,Knot,Speed of light(C)
                                                                                                              
