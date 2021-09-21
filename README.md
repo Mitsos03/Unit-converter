@@ -5,7 +5,12 @@
 * **Python2 & above**
 
 ### Supported Units and Categories
-                                                                      |
-| Speed             | kilometers per hour (kph), miles per hour (mph), knots (kt)                                                                                                                                                                                                                                                                                                                                                                              |
-| Force             | Newton (N), dyne (dyn), Kilogram-Force (kp), Poundal (pdl)                                                                                                                                                                                                                                                                                                                                                                               |
-| Digital Storage   | bit (bit), byte (byte), kilobyte (kB), megabyte (MB), gigabyte (GB), terabyte (TB), petabyte (PB), exabyte (EB), zettabyte (ZB), yottabyte (YB)                                                                                                                                                                                                                                                                |
+
+| Category          | Units                                                                                                                                                                                                                                                                                                                     |
+|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|                                                                                                               
+| Temperature       | Celsius,Fahrenheit,Kelvin 
+  Data              |  Byte,Kilobyte(Kb),Megabyte(Mb),Gigabyte(Gb),Terabyte(Tb)      
+  Distance          |  Milimeter(Mm),Centimeter(cm),Meter(M),Kilometer(Kmph),Mile(mph),Inch,Foot
+  Time              |  Second(sec),Minute,Hour,Day,Week,Year
+  Velocity          |  
+                                                                                                             
