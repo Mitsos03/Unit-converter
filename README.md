@@ -3,7 +3,8 @@
 ###  Μade with basic knowledge and used different mathematic formulas to convert  the units.
 ### Requirements
 * **Python2 & above**
-
+### How to run:
+* **Simply run the command: python3 or pyhton Converter.py**
 ### Supported Units and Categories
 
 | Category          | Units                                                                                                                                                                                                                                                                                                                     |
