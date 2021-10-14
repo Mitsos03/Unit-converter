@@ -713,12 +713,37 @@ def c_kn():
     c = (float(input(Fore.GREEN+"Give speed of light value: ")))
     kn = c*58249918
     print(kn, "Knots")
+#Binary conversions
+def bin_dec():
+    bina=(input(Fore.GREEN+"Give a binary value:"))
+    dec=int(bina,2)
+    print(dec)
+def dec_bin():
+    dec=int(input(Fore.GREEN+"Give a decimical value:"))
+    bina=bin(dec)[2:]
+    print(bina)
+def dec_hex():
+    dec=int(input(Fore.GREEN+"Give a decimical value:"))
+    hexa=hex(dec)[2:]
+    print(hexa)
+def bin_hex():
+    bina=(input(Fore.GREEN+"Give a binary value:"))
+    hexa=hex(int(bina,2))[2:]
+    print(hexa)
+def hex_dec():
+    hexa=(input(Fore.GREEN+"Give a hexadecimal value:"))
+    dec=int(hexa,16)
+    print(dec)
+def hex_bin():
+    hexa=int((input(Fore.GREEN+"Give a hexadecimal value:")),16)
+    bina=bin(hexa)[2:]
+    print(bina)
 # Main code
 cont = "yes" or "Yes"
 cont2 = "other"
 while cont2 == "other":
     print(Fore.LIGHTMAGENTA_EX +
-          "\n1)Temperature\n2)Data\n3)Time\n4)Distance\n5)Velocity\n6)Exit")
+          "\n1)Temperature\n2)Data\n3)Time\n4)Distance\n5)Velocity\n6)Binary\n7)Exit")
     choice1 = input(Fore.YELLOW+"Give a number: ")
     # Temperature
     if choice1 == "1":
@@ -1136,9 +1161,44 @@ while cont2 == "other":
                 break
             elif cont == "3":
                 break
+#Binary
+    if choice1=="6":
+        while cont == "yes" or "Yes":
+            print(Fore.LIGHTCYAN_EX +
+                  "Conversions\n1)Decimical\n2)Binary\n3)Hexadecimal")
+            choice = input("Give a number: ")
+            if choice=="1":
+                print(Fore.LIGHTCYAN_EX+"\n1)Decimical-->Binary\n2)Decimical-->Hexadecimal")
+                choice2 = input("Give a number: ")
+                if choice2=="1":
+                    dec_bin()
+                elif choice2=="2":
+                    dec_hex()
+            if choice=="2":
+                print(Fore.LIGHTCYAN_EX+"\n1)Binary-->Decimical\n2)Binary-->Hexadecimal")
+                choice2 = input("Give a number: ")
+                if choice2=="1":
+                    bin_dec()
+                elif choice2=="2":
+                    bin_hex()
+            if choice=="3":
+                print(Fore.LIGHTCYAN_EX+"\n1)Hexadecimal-->Decimical\n2)Hexadecimal-->Binary")
+                choice2 = input("Give a number: ")
+                if choice2=="1":
+                    hex_dec()
+                elif choice2=="2":
+                    hex_bin()
+            cont = input(
+                Fore.MAGENTA+"Continue? 1)Yes/2)No/3)other Conversion: ")
+            if cont == "2":
+                print(Fore.LIGHTRED_EX+"Goodbye (: ")
+                break
+            elif cont == "3":
+                break
+#Binary  
 # main programm brake
     if cont == "2":
         break
-    elif choice1 == "6":
+    elif choice1 == "7":
         print(Fore.LIGHTRED_EX+"Goodbye (: ")
         break
